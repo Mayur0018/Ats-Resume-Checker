@@ -2,11 +2,11 @@ const Hero = () => {
   return (
     <>
       <div className="sm:flex">
-        <div className="sm:w-1/2  sm:px-16 sm:py-14">
+        <div className="sm:w-1/2  sm:px-16 sm:py-14 py-20">
           <p className="sm:text-[11px] text-[12px] px-4 py-3 font-bold sm:py-2  text-blue-700">
             RESUME CHECKER
           </p>
-          <h1 className="px-4 text-4xl sm:text-6xl font-bold sm:py-8">
+          <h1 className="px-4 text-4xl sm:text-6xl font-bold sm:py-8 ">
             Is your resume good enough?
           </h1>
           <p className="font-semibold text-gray-800 px-4 py-3">
@@ -22,7 +22,7 @@ const Hero = () => {
               <img
                 src="https://i.imgur.com/WbQnbas.png"
                 alt="About our company"
-                className="mx-auto"
+                className="mx-auto sm:w-62"
               />
             </div>
           </div>
