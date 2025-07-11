@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@plugin "daisyui";
+body {
+  background-image: url("./assets/body-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
