@@ -5,7 +5,7 @@ const FeatureCards = () => {
     <>
       <div className="sm:grid sm:grid-cols-2 sm:px-32 sm:py-20 flex flex-col justify-center items-center">
         <div>
-          <img src={ResumeImg} alt="" className="w-52 sm:w-82" />
+          <img src={ResumeImg} alt="" className="w-52 sm:w-82  shadow-xl/20 shadow-amber-50" />
         </div>
         <div>
           <p className="font-semibold text-white py-3 px-10 text-3xl">
@@ -51,7 +51,7 @@ const FeatureCards = () => {
           </p>
         </div>
         <div>
-          <img src={ResumeImg2} alt="" className="w-52 sm:w-82 ml-14" />
+          <img src={ResumeImg2} alt="" className="w-52 sm:w-82 ml-14  shadow-xl/20" />
         </div>
       </div>
     </>
