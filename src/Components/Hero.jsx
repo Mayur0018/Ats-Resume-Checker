@@ -9,7 +9,7 @@ const Hero = () => {
           <h1 className="px-4 text-4xl sm:text-6xl font-bold sm:py-8 ">
             Is your resume good enough?
           </h1>
-          <p className="font-semibold text-gray-800 px-4 py-3">
+          <p className="font-semibold text-white px-4 py-3">
             A free and fast AI resume checker doing 16 crucial checks to ensure
             your resume is ready to perform and get you interview callbacks.
           </p>
@@ -29,13 +29,13 @@ const Hero = () => {
 
           <div className="sm:w-1/2 ">
             <div className="text">
-              <span className="text-gray-500 border-b-2 border-indigo-600 uppercase">
+              <span className="text-white border-b-2 border-indigo-600 uppercase">
                 About us
               </span>
               <h2 className="my-4 font-bold text-3xl sm:text-4xl">
                 About <span className="text-indigo-600">Our Company</span>
               </h2>
-              <p className="text-gray-700">
+              <p className="text-white">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Aliquid, commodi doloremque, fugiat illum magni minus nisi nulla
                 numquam obcaecati placeat quia, repellat tempore voluptatum.
